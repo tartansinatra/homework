@@ -1,7 +1,8 @@
 # LATEST FILE - 21.13PM
-# def return_10
-#  10
-# end
+
+def return_10
+ 10
+end
 
 def add(number_1, number_2)
   return number_1 + number_2
@@ -49,5 +50,9 @@ def number_to_short_month_name(number)
 end
 
 
+##volume of a cube
+def volume(length)
+  return length^3
+end
 
 

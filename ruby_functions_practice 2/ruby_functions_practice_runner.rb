@@ -2,8 +2,8 @@
 require_relative "./ruby_functions_practice.rb"
 
 #### Example
-# test_result = return_10
-# puts "#{test_result} should = 10"
+test_result = return_10
+puts "#{test_result} should = 10"
 
 
 ##### Integer Play
@@ -56,7 +56,9 @@ puts "The ninth month in 3 letters is #{ninth_month_string}"
 ##### Further Challenges (not required),  try to write the expectation first if you can.
 
 ####http://ruby-doc.org/core-2.1.4/Float.html
-####Given the length of a side of a cube calculate the volume 
+####Given the length of a side of a cube calculate the volume ,
+
+
 ####Given the radius of a sphere calculate the volume
 ####Can you extend this to calculate other shapes' volumes? (Cylinder, Rectangular Prism, Cone, Capsule)
 
