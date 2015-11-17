@@ -12,14 +12,14 @@ number_2 = 5
 add_result = add( number_1, number_2 )
 puts "#{number_1} + #{number_2} = #{add_result}"
 
-# subtract_result = subtract( number_1, number_2 )
-# puts "#{number_1} - #{number_2} = #{subtract_result}"
+subtract_result = subtract( number_1, number_2 )
+puts "#{number_1} - #{number_2} = #{subtract_result}"
 
-# multiply_result = multiply( number_1, number_2 )
-# puts "#{number_1} * #{number_2} = #{multiply_result}"
+multiply_result = multiply( number_1, number_2 )
+puts "#{number_1} * #{number_2} = #{multiply_result}"
 
-# divide_result = divide( number_1, number_2 )
-# puts "#{number_1} / #{number_2} = #{divide_result}"
+divide_result = divide( number_1, number_2 )
+puts "#{number_1} / #{number_2} = #{divide_result}"
 
 ##### String Play
 # test_string = "A string of length 21"
