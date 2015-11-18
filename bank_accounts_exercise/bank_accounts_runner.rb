@@ -27,9 +27,13 @@ puts "name of last account owner is #{last_account_holder}"
 # average bank account value
 puts "The average bank balance is #{avg_balance}" 
 
-###total cash in business accounts
+#total cash in business accounts
+puts "The total cash in business accounts is #{total_business_cash}"
+
 
 ###holder of largest bank account
+puts "The holder of the largest bank account is #{largest_account_holder}"
+
 
 ###holder of largest personal account
 

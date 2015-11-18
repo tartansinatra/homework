@@ -65,13 +65,38 @@ def total_cash_in_bank()
 end
 
 def last_account_holder()
-  banana = 0
+  name = 0
   for account in ACCOUNTS
-    banana = account[:holder_name]
+    name = account[:holder_name]
   end
-  banana
+  name
 end
 
 def avg_balance()
   total_cash_in_bank()/number_of_bank_accounts()  
 end
+
+def total_business_cash()
+  business_total = 0
+  for account in ACCOUNTS
+    business_total += account[:amount] if account[:type] == "business"
+  end
+  business_total
+end
+
+# def largest_account_holder()
+#   most_cash = 0
+#   for i in ACCOUNTS
+#      most_cash = if i[0][:amount] > i[1][:amount]
+#       then [:holder_name]
+#     else  i+1
+#   end
+#   [:holder_name]
+# end
+
+
+   # array.max_by(&:field)
+
+
+
+
