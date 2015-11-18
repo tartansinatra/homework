@@ -55,4 +55,8 @@ def volume(length)
   return length^3
 end
 
+def volume_of_sphere(radius)
+  return (4/3) * 3.141 * radius^3
+end
+
 
